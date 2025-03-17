@@ -32,9 +32,6 @@ Below are some key insights from our data analysis:
 - **Correlations between variables**  
 - **Patterns in missing data**  
 
-![Feature Distribution](images/feature_distribution.png)  
-![Correlation Heatmap](images/correlation_heatmap.png)  
-
 ## Model Development  
 We are testing multiple models, including:  
 - **Baseline Models**: Logistic Regression, Decision Tree  
