@@ -1,54 +1,78 @@
-# ZincOxide
-# AJL / WiDS Kaggle Project  
-Team member : Louange 
+# AJL Kaggle Project - Break Through Tech AI
 
-## Project Overview  
-This project is part of the [Break Through Tech AI Program](https://www.breakthroughtech.org/), where we are participating in the **[AJL/WiDS Challenge]** on Kaggle.
-The goal of this competition is to develop a **machine learning model** that can [briefly describe what your model is predicting].  
+## Team Members
+- **Louange Theopiste Mizero** - [GitHub Profile](https://github.com/LouangeM94)
 
-### **Project Description**  
-This competition focuses on applying machine learning techniques to analyze **[dataset name]** and improve prediction accuracy for **[problem statement]**. We will:  
-- Perform **data preprocessing and exploratory data analysis (EDA)**.  
-- Develop and evaluate **different machine learning models**.  
-- Optimize performance through **feature engineering and hyperparameter tuning**.  
-
-### **Why This Matters**  
-This challenge has **real-world significance**, as it addresses **[describe the impact of solving this problem]**. Our contributions could help **[explain the broader impact]**.  
-
-## Data Exploration  
-We are using the dataset provided by Kaggle:  
-- **Dataset Name**: [Link to Kaggle dataset]  
-- **Additional Sources** (if applicable)  
-
-### **Data Preprocessing & Cleaning**  
-- Handled missing values  
-- Normalized numerical features  
-- Encoded categorical variables  
-- Addressed class imbalance using **[technique]**  
-
-### **Exploratory Data Analysis (EDA)**  
-Below are some key insights from our data analysis:  
-- **Feature distributions**  
-- **Correlations between variables**  
-- **Patterns in missing data**  
-
-## Model Development  
-We are testing multiple models, including:  
-- **Baseline Models**: Logistic Regression, Decision Tree  
-- **Advanced Models**: Random Forest, XGBoost, Neural Networks  
-
-### **Evaluation Metrics**  
-We use **[metrics like accuracy, F1-score, ROC-AUC, etc.]** to measure performance.  
-
-## Next Steps  
-- **Hyperparameter tuning**  
-- **Feature selection improvements**  
-- **Model deployment (if applicable)**  
 
 ---
 
-### **How to Run the Project**  
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/yourrepo.git
-   cd yourrepo
+## Project Overview
+
+### Kaggle Competition and Break Through Tech AI
+This project is part of the **Break Through Tech AI Program**, which aims to empower underrepresented students in AI through real-world challenges. Our team is participating in the **AJL Kaggle competition**, where we leverage machine learning techniques to solve a classification problem using image data.
+
+### Objective of the Challenge
+The goal of this challenge is to develop a **computer vision model** that accurately classifies images based on their labels. We aim to optimize our model’s performance by implementing **image preprocessing, data augmentation, and deep learning techniques**.
+
+### Real-World Significance
+Image classification is a crucial application in AI with wide-ranging real-world impacts, including:
+- **Healthcare**: Detecting diseases in medical imaging
+- **Security**: Identifying fraudulent activities through image recognition
+- **Retail**: Automating product categorization for e-commerce platforms
+
+By participating in this challenge, our work contributes to advancements in AI that can be leveraged across multiple industries.
+
+---
+
+## Data Exploration
+
+### Dataset Description
+The dataset used in this project consists of labeled images provided by Kaggle. Each image is associated with an **md5hash** identifier and a corresponding **class label**. The training dataset includes image paths and class labels, while the test dataset consists of images without labels for model evaluation.
+
+### Data Preprocessing Approaches
+To ensure optimal performance, we employed the following preprocessing steps:
+1. **Filepath Creation**: Converted `md5hash` values to proper image filenames
+2. **Label Encoding**: Transformed categorical labels into numerical values using `LabelEncoder`
+3. **Data Splitting**: Split the dataset into training and validation sets (70%-30%)
+4. **Image Augmentation**: Applied **rescaling, zooming, and normalization** to enhance model generalization
+
+### Exploratory Data Analysis (EDA)
+We conducted EDA to gain insights into the dataset. Here are a few key findings:
+- **Class Distribution**: Checked for class imbalances to ensure fair training
+- **Image Resolution**: Verified consistency in image dimensions
+- **Sample Visualizations**: Displayed random images per class to understand variations
+
+#### Sample Visualizations
+_(Add 2-3 visualizations from your EDA, such as class distribution histograms or sample images)_
+
+---
+
+## Model Development
+
+### CNN Architecture
+We implemented a **Convolutional Neural Network (CNN)** with the following layers:
+- **Conv2D Layers**: Extract features from images
+- **MaxPooling**: Reduce dimensionality
+- **Dense Layers**: Learn complex patterns
+- **Dropout**: Prevent overfitting
+
+The model was compiled using the **Adam optimizer** and `sparse_categorical_crossentropy` loss function. It was trained for **5 epochs** with an accuracy evaluation on the validation set.
+
+### Training Performance
+_(Include training/validation accuracy and loss curves if available)_
+
+---
+
+## Next Steps
+- Fine-tuning the model hyperparameters
+- Experimenting with additional augmentation techniques
+- Exploring transfer learning for improved accuracy
+
+### Conclusion
+This project showcases our ability to **process image datasets, implement deep learning models, and analyze results effectively**. The experience gained will be valuable for future AI challenges.
+
+---
+
+## References
+_(If applicable, include links to relevant resources or research papers used in the project)_
+
