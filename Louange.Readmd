@@ -1,7 +1,7 @@
 # AJL Kaggle Project - Break Through Tech AI
 
 ## Team Members
-- **Louange Theopiste Mizero** - [GitHub Profile](https://github.com/LouangeM94)
+- **Louange Mizero** - [GitHub Profile](https://github.com/LouangeM94)
 
 
 ---
@@ -9,10 +9,12 @@
 ## Project Overview
 
 ### Kaggle Competition and Break Through Tech AI
-This project is part of the **Break Through Tech AI Program**, which aims to empower underrepresented students in AI through real-world challenges. Our team is participating in the **AJL Kaggle competition**, where we leverage machine learning techniques to solve a classification problem using image data.
+This project is part of the **Break Through Tech AI Program**, which aims to empower underrepresented students in AI through real-world challenges. 
+Our team is participating in the **AJL Kaggle competition**, where we leverage machine learning techniques to solve a classification problem using image data.
 
 ### Objective of the Challenge
-The goal of this challenge is to develop a **computer vision model** that accurately classifies images based on their labels. We aim to optimize our model’s performance by implementing **image preprocessing, data augmentation, and deep learning techniques**.
+The goal of this challenge is to develop a **computer vision model** that accurately classifies images based on their labels.
+We aim to optimize our model’s performance by implementing **image preprocessing, data augmentation, and deep learning techniques**.
 
 ### Real-World Significance
 Image classification is a crucial application in AI with wide-ranging real-world impacts, including:
@@ -27,7 +29,8 @@ By participating in this challenge, our work contributes to advancements in AI t
 ## Data Exploration
 
 ### Dataset Description
-The dataset used in this project consists of labeled images provided by Kaggle. Each image is associated with an **md5hash** identifier and a corresponding **class label**. The training dataset includes image paths and class labels, while the test dataset consists of images without labels for model evaluation.
+The dataset used in this project consists of labeled images provided by Kaggle. Each image has a **md5hash** identifier and a corresponding **class label**.
+The training dataset includes image paths and class labels, while the test dataset consists of images without labels for model evaluation.
 
 ### Data Preprocessing Approaches
 To ensure optimal performance, we employed the following preprocessing steps:
@@ -56,7 +59,8 @@ We implemented a **Convolutional Neural Network (CNN)** with the following layer
 - **Dense Layers**: Learn complex patterns
 - **Dropout**: Prevent overfitting
 
-The model was compiled using the **Adam optimizer** and `sparse_categorical_crossentropy` loss function. It was trained for **5 epochs** with an accuracy evaluation on the validation set.
+The model was compiled using the **Adam optimizer** and `sparse_categorical_crossentropy` loss function. 
+It was trained for **5 epochs** with an accuracy evaluation on the validation set.
 
 ### Training Performance
 _(Include training/validation accuracy and loss curves if available)_
