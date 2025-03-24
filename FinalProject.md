@@ -100,7 +100,7 @@ Our Convolutional Neural Network (CNN) includes:
 ### Performance Metrics
 - **Training Accuracy**: 97.3%
 - **Validation Accuracy**: 92%
-- **Loss Reduction**: Steady decline in training loss, indicating effective learning.
+- **Loss Reduction**: Steady training loss decline indicates effective learning.
 
 ### Performance Visualizations
 - **Accuracy Curve**: Demonstrates improvement over epochs.
@@ -118,7 +118,6 @@ This project highlights our ability to apply **machine learning and deep learnin
 - **Advanced Augmentation**: Experiment with techniques like cutout and mixup.
 - **Transfer Learning**: Leverage pre-trained models for improved feature extraction.
 - **Deploying the Model**: Implement an interactive web demo for real-time classification.
-
 By continuing our efforts, we aim to push the boundaries of **computer vision** and enhance AI-driven image classification systems.
 
 
