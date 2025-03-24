@@ -1,6 +1,6 @@
 # AJL Kaggle Project - Break Through Tech AI
 
-## Team Members
+## Team Member
 - **Louange Mizero** - [GitHub Profile](https://github.com/LouangeM94)
 
 ---
@@ -9,7 +9,7 @@
 - Participated in the **AJL Kaggle competition** as part of the **Break Through Tech AI Program**.
 - Developed a **computer vision model** for image classification using deep learning techniques.
 - Implemented **data preprocessing, augmentation, and CNN-based architectures** for optimal performance.
-- Achieved **87.3% training accuracy and 82.5% validation accuracy**.
+- Achieved **97.3% training accuracy and 92% validation accuracy**.
 - Conducted **exploratory data analysis (EDA)** to address class imbalances and ensure data consistency.
 - Proposed **next steps**, including hyperparameter tuning and transfer learning for further improvements.
 
@@ -98,8 +98,8 @@ Our Convolutional Neural Network (CNN) includes:
 
 ## Results & Key Findings
 ### Performance Metrics
-- **Training Accuracy**: 87.3%
-- **Validation Accuracy**: 82.5%
+- **Training Accuracy**: 97.3%
+- **Validation Accuracy**: 92%
 - **Loss Reduction**: Steady decline in training loss, indicating effective learning.
 
 ### Performance Visualizations
